@@ -1,0 +1,300 @@
+
+body {
+	background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+	color: black;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-size: 14px;
+	font-family: 'Open Sans', "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+	width: 924px;
+	margin: 0 auto;
+	padding: 30px 24px;
+}
+
+/* Typography */
+
+h1, h2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: black;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 44px;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 0 0 20px;
+}
+
+h1 em {
+	color: black;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p.lead {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin: 10px 0;
+}
+
+p {
+	margin: 0;
+}
+
+a:link {
+	color: #f2f3ee;
+}
+
+
+a:hover {
+	opacity: 0.65;
+}
+
+hr {
+	border: none;
+	height: 33px;
+	width: 333px;
+	margin: 30px auto;
+	background: url('../images/divider.png') center center no-repeat;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Header */
+
+header nav {
+	text-align: center;
+	vertical-align:middle;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	line-height: 141px;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+header nav ul li a:hover {
+	color:green;
+	padding-top: 20px;
+
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav ul li#logo a {
+	display: block;
+	width: 230px;
+	height: 173px;
+	scale: 60%;
+	background: url('../images/koperasi1.png') center center no-repeat;
+	text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+	scale: 80%;
+	padding: 0;
+	background: url('../images/koperasi1.png') center center no-repeat;
+}
+
+.blackc{
+	color: black;
+}
+
+/* Hero */
+
+#hero {
+	background: #1DB954 top left repeat;
+	opacity: 0.8;
+}
+
+#hero .container {
+	position: center;
+}
+
+.bersama{
+	opacity: 1;
+	text-align: center;
+}
+
+.heroimage{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+/* About Us */
+
+#story-excerpt {
+	width: 530px;
+	margin-right: 24px;
+	float: left;
+	font-size: 16px;
+}
+
+#best-donut {
+	background: url('../images/medal1.png') left center no-repeat;
+	background-color: #f2f3ee;
+	padding: 30px 0 30px 130px;
+	width: 240px;
+	float: left;
+}
+
+/* News & Events */
+
+#articles {
+	width: 370px;
+	float: left;
+	max-width: 100%;
+	height: auto;
+	margin-right: 24px;
+}
+
+#feature-image {
+	width: 200px;
+
+	max-width: 100%;
+	height: auto;
+	float: left;
+}
+
+#news-events article {
+	margin: 20px 0;
+	padding-left: 24px;
+}
+
+#news-events header time {
+	color: grey;
+	font-size: 12px;
+}
+
+#news-events section.excerpt {
+	margin: 10px 0;
+}
+
+#news-events footer {
+	font-size: 12px;
+}
+
+/* Footer */
+
+footer.main {
+	background: grey  top left repeat;
+	color: #f2f3ee;
+	padding: 30px 0;
+}
+
+
+
+#uncopyright, #credits, #icons{
+	width: 240px;
+	float: left;
+	padding: 10px 0 10px 50px;
+}
+
+
+#credits {
+	float: right;
+	margin-top: 5px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; }
+*:first-child+html .group { zoom: 1; }
+
+
+
+
+.social-icons{
+	padding:30px;
+  text-align: right;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+.sponsor-collage {
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+  }
+
+.sponsor-img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+.sponsorstext{
+	width: 370px;
+	max-width: 100%;
+	height: auto;
+	margin-right: 24px;
+	margin-bottom: 50px;
+}
